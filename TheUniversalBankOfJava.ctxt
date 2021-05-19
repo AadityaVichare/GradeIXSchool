@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=TheUniversalBankOfJava
+comment1.params=setterName\ initialBalance
+comment1.target=void\ setDetails(java.lang.String,\ int)
+comment2.params=
+comment2.target=void\ getDetails()
+comment3.params=amountW
+comment3.target=void\ withdrawal(int)
+comment4.params=amountD
+comment4.target=void\ deposit(int)
+comment5.params=
+comment5.target=void\ getTransactionHistory()
+numComments=6

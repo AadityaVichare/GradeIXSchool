@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=BattleOfWarships
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=gameBoard
+comment2.target=void\ printGameBoard(char[][])
+comment3.params=boatBoard
+comment3.target=void\ printBoatBoard(char[][])
+comment4.params=ux\ uy\ boatBoard\ gameBoard
+comment4.target=void\ checkHit(int,\ int,\ char[][],\ char[][])
+comment5.params=boatBoard\ gameBoard
+comment5.target=boolean\ checkWinner(char[][],\ char[][])
+numComments=6
