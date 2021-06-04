@@ -311,6 +311,7 @@ public class BattleOfWarships
                 }
             }
         int ammo = b+8;
+        long finish, timeElapsed
         while(true)
         {
             System.out.println("Ammo left: "+ammo);
@@ -324,15 +325,15 @@ public class BattleOfWarships
             }catch(ArrayIndexOutOfBoundsException e){
                 System.out.println("The co-ordinates are only from 0 - 4!");
             }
-            long finish = System.currentTimeMillis();
-            long timeElapsed = finish - start;
+            finish = System.currentTimeMillis();
+            timeElapsed = finish - start;
             if(checkWinner(boatBoard, gameBoard))
             {
                 System.out.println("Congrats! You sunk the fleet");
                 System.out.println("Time taken: "+timeElapsed/1000+"s");
                 break;
             }
-            if(timeElapsed/1000 == 120.000)
+            if((timeElapsed/1000) == 120)
             {
                 System.out.println("Time's up Commander! The fleet is here!");
                 printBoatBoard(boatBoard);
