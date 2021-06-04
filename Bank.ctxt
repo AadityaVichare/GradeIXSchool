@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Bank
+comment1.params=n\ b
+comment1.target=void\ setDetails(java.lang.String,\ int)
+comment2.params=w
+comment2.target=void\ Deposit(int)
+comment3.params=d
+comment3.target=void\ Withdrawal(int)
+comment4.params=
+comment4.target=void\ checkDetails()
+comment5.params=
+comment5.target=void\ getStatement()
+numComments=6
